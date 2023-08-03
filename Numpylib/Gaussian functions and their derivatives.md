@@ -45,7 +45,7 @@ dydx = (gaussian(x+h, s, mu) - gaussian(x-h, s, mu))/2/h    #given in the proble
 
 plt.plot(x, y)
 plt.plot(x, dydx)
-
+plt.savefig("gaussian.png")
 plt.show()
 ```
 **The plot output of this code is given by "gaussian.png" file in this folder.**
