@@ -27,7 +27,7 @@ A text file containing these data is available as [whale-data.txt](https://scipy
 
 My solution is shown below. I have used Google Colab to execute the following python code.
 ### SOLUTION: 
-```sql
+```python
 import numpy as np  #imports the numpy lib package
 
 #set the type for each variable
